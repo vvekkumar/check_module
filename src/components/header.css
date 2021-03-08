@@ -1,0 +1,22 @@
+
+.smart{
+	color:#052c39;
+	font-size:40pt;
+	font-weight: bold;
+}
+.cheque{
+	color:white;
+	font-size:40pt;
+	font-weight: lighter;
+    font-style: normal;
+}
+.welcome{
+	color:white;
+	margin-top:20px;
+	padding-top:5px;
+	font-size: 17.5pt;
+}
+.title{
+	padding: 0px;
+	margin-top: 0px;
+}

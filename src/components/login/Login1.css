@@ -1,0 +1,112 @@
+body{
+	margin:0px;
+	padding: 0px;
+	background-color:#136699;
+	font-family: 'Josefin Sans';
+	font-variant: 'regular';
+}
+.container{
+	text-align: center;
+	height:auto;
+	margin-top:30px;
+	
+}
+.card {
+  /* Add shadows to create the "card" effect */
+     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+	width:3.0in;
+	height:3.4in;
+    padding: 30px 10px;
+    border-radius: 10px;
+    background-color:#0f4d6a;
+    color:white;
+}
+div .input{
+	border-radius:20px;
+	height:0.22in;
+	width:2in;
+	outline: none;
+	font-size: 15px;
+	word-spacing: 5px;
+	word-wrap: normal;
+	padding: 5px;
+	margin-top: 0px;
+	border-style: hidden;
+	color:black;
+}
+
+.footer{
+	position: absolute;
+	text-align: center;
+	top:90%;
+    left:50%;
+    transform: translate(-50%,-90%);
+    color: white;
+	padding-bottom: 10px;
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+.btn1{
+	 background-color:#083546;
+	 border-radius:20px;
+	 border-color: none;
+	 width:1.08in;
+	 height:0.27in;
+	 color: white;
+	 outline: none;
+	 border-style: hidden;
+}
+.loginbtn{
+	margin-top:1px;
+	padding: 5px;
+}
+.password{
+	margin-top:10px;
+	padding: 10px;
+}
+.label{
+	font-size:15pt; 
+	margin-bottom:5px;
+	font-weight: lighter;
+    font-style: normal;
+}
+.btn2{
+	 background-color:#083546;
+	 border-radius:20px;
+	 border-color: none;
+	 width:1.70in;
+	 height:0.27in;
+     color: white;
+	 font-size: 17px;
+	 outline: none;
+	 border-style: hidden;
+}
+button:hover{
+	opacity: 0.7;
+	 background-color:#e6e6e6;
+	 color:#083546;
+}
+.new{
+	font-size:16px; 
+	font-weight:bold;
+	font-style:normal;
+    color: white;
+}
+h1{
+	font-size:40px;
+	font-style: oblique;
+	 font-weight: bold;
+}
+.welcome{
+	font-size: 17.5pt;
+	padding-top: 5px;
+}
+.forget{
+	margin-top:120%;
+	transform: translate(-80%,);
+}

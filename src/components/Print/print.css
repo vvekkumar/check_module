@@ -1,0 +1,62 @@
+.print-card{
+    background-color:#0f4d6a;
+    border-radius: 10px;
+    padding: 20px 20px;
+    overflow-x:auto;
+   width: 600px;
+   overflow-x:auto;
+    margin-left: 410px;
+    margin-top: 20px;
+  
+}
+.stepone{
+    background-color:#0f4d6a;
+    border-radius: 10px;
+    padding: 10px 20px;
+    width: 600px;
+    height:300px;
+    text-align: center;
+    margin:10px;
+    margin-left: 400px;
+}
+.stepthree{
+    background-color:#0f4d6a;
+    border-radius: 10px; 
+    padding: 10px 20px 10px 20px;
+    width:250px;
+    text-align: center;
+    height:50px;
+    margin-top:20px;
+    margin-left: 42%;
+}
+.step{
+   padding:10px;
+  margin-top:20px;
+}
+@media only screen and (max-width: 600px) {
+    .stepone{
+        text-align: center;
+        margin-left: 0px;
+        width:350px;
+    }
+    .stepthree{
+        margin-top: 10px;
+        margin-left: 45px;
+        align-items: center;
+    }
+    .print-card{
+        margin-left: 5px;
+        width:350px;
+    }
+}
+.step-title{
+    color:#052d3a;
+}
+.step-content{
+    color:white;
+}
+.printfooter{
+    text-align: center;
+    bottom: 5px;
+    margin-top: 50px;
+}

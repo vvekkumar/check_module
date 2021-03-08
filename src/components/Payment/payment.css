@@ -1,0 +1,100 @@
+.payment-card{
+    text-align: center;
+    margin-left:50%;
+    margin-top: 4%;
+    transform: translate(-50%,-0%);
+    border-radius: 10px;
+    background-color:#0f4d6a;
+    width:3.0in;
+    padding:02px 20px 20px 20px;
+    color:white;
+    height:auto;
+}
+.table-list{
+    border-radius: 10px;
+    background-color:#0f4d6a;
+    margin-top: 20px;
+    padding: 5px 20px;
+    text-align: center;
+    max-width:600px;
+    overflow-x:auto;
+    margin-left: 400px;
+    align-items: center;
+    height: auto;
+}
+th,td{
+    font-size: 14pt;
+    font-weight: lighter;
+    font-style: normal;
+    font-family:sans-serif;
+}
+.paybtn{
+    margin-top: 15px;
+}
+.smartpay{
+    color:#052c39;
+	font-size:25pt;
+	font-weight: bold;
+}
+.paycheque{
+    color:white;
+	font-size:20pt;
+    font-weight: lighter;
+    font-style: normal;
+}
+.payment-detail{
+    margin-top: 10px;
+    font-weight: lighter;
+    font-style: normal;
+}
+.table-btn{
+    background-color:#083546;
+    border-radius:20px;
+    border-color: none;
+    width:1.12in;
+    height:0.33in;
+    color: whitesmoke;
+    outline: none;
+    border-style: hidden;
+    margin-top: 15px;
+}
+.detail{
+    color:whitesmoke;
+}
+.payment-details{
+    margin-top: 10px;
+    font-weight: lighter;
+    font-style: normal;
+}
+.footerPayment{
+    text-align: center;
+    bottom: 2px;
+    margin-top: 30px;
+}
+.input{
+    border-radius:20px;
+	height:0.30in;
+	width:2.4in;
+	outline: none;
+	font-size: 13px;
+	word-spacing: 5px;
+	word-wrap: normal;
+	padding: 5px;
+	margin-top: 0px;
+	border-style: hidden;
+	color:black;
+}
+.custom-ui{
+    background-color:#0f4d6a;
+    align-items: center;
+    text-align: center;
+    width:300px;
+    height:200px;
+    border-radius: 10px;
+}
+@media screen and (max-width:600px){
+    .table-list{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}

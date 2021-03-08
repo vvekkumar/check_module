@@ -1,0 +1,55 @@
+.report-card{
+    border-radius:10px;
+    background-color:#0f4d6a;
+    padding:0px 20px 10px 20px ;
+    margin: 10px;
+}
+.filter-card{
+    border-radius:10px;
+    background-color:#052c39;
+    padding:0px 20px 10px 20px ;
+    margin: 10px;
+    color:white;
+   
+    text-align: left;
+}
+.filter-input{
+    width:20px;
+    height:20px;
+    border-radius:10px;
+   
+}
+.date-input{
+    height:22px;
+    width:75px;
+    border-radius: 10px;
+    border-style: hidden;
+    outline:none;
+    margin-left:10px;
+    margin-top: 10px;
+    color:black
+}
+.range{
+    margin-top: 5px;
+}
+.range1{
+    margin-top: 5px;
+    margin-right: 10px;
+   
+}
+.report-table{
+    border-radius: 25px;
+    border: 2px solid white;
+    padding: 20px;
+    height:auto; 
+}
+th,td{
+    font-weight: normal;
+    font-size: 9.72pt;
+}
+@media screen and (max-width:480px){
+.filter-card{
+    margin-right: 2px;
+}
+
+}

@@ -1,0 +1,35 @@
+select{
+    border-radius:20px;
+	height:0.22in;
+	width:2in;
+	outline: none;
+	cursor: pointer;
+	color:grey;
+}
+select::after {
+	content: '\25BC';
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 0 1em;
+	background: black;
+	cursor: pointer;
+	pointer-events: none;
+	-webkit-transition: .25s all ease;
+	-o-transition: .25s all ease;
+	transition: .25s all ease;
+  }
+  .extheader{
+	position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width:3.0in;
+    padding:30px 10px;
+    border-radius: 10px;  
+    background-color:#0f4d6a;
+    color:white;
+  }
+
+  
+  
